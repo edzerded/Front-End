@@ -5,3 +5,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/edzerded/Front-End.git
 git push -u origin main
+git add Gemfile
+git commit -m
+git push
