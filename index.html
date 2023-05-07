@@ -1,32 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Mi sitio web</title>
+	<title>Mi sitio web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi sitio web</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Sección 1</h2>
-            <p>Texto de la sección 1.</p>
-        </section>
-        <section>
-            <h2>Sección 2</h2>
-            <p>Texto de la sección 2.</p>
-        </section>
-    </main>
-    <footer>
-        <p>Derechos reservados © 2023</p>
-    </footer>
+
+<header>
+	<nav>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Nosotros</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</nav>
+</header>
+
+<section class="hero">
+	<h1>Bienvenidos a mi sitio web</h1>
+	<p>Este es un sitio web de ejemplo creado para demostrar habilidades de desarrollo web.</p>
+	<a href="#" class="cta-button">Conoce más</a>
+</section>
+
+<section class="services">
+	<h2>Nuestros servicios</h2>
+	<p>Ofrecemos una amplia variedad de servicios para satisfacer las necesidades de nuestros clientes.</p>
+	<div class="service">
+		<img src="service1.jpg" alt="Servicio 1">
+		<h3>Servicio 1</h3>
+		<p>Descripción del servicio 1.</p>
+	</div>
+	<div class="service">
+		<img src="service2.jpg" alt="Servicio 2">
+		<h3>Servicio 2</h3>
+		<p>Descripción del servicio 2.</p>
+	</div>
+	<div class="service">
+		<img src="service3.jpg" alt="Servicio 3">
+		<h3>Servicio 3</h3>
+		<p>Descripción del servicio 3.</p>
+	</div>
+</section>
+
+<section class="about-us">
+	<h2>Sobre nosotros</h2>
+	<p>Descripción de la empresa.</p>
+	<a href="#" class="cta-button">Conoce más</a>
+</section>
+
+<section class="contact">
+	<h2>Contacto</h2>
+	<p>¡Contáctanos para más información!</p>
+	<form>
+		<label for="name">Nombre:</label>
+		<input type="text" id="name" name="name">
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email">
+		<label for="message">Mensaje:</label>
+		<textarea id="message" name="message"></textarea>
+		<input type="submit" value="Enviar">
+	</form>
+</section>
+
+<footer>
+	<p>Derechos de autor © 2023 Mi sitio web. Todos los derechos reservados.</p>
+</footer>
+
 </body>
 </html>
