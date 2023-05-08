@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
-# gem 'devise'
-# gem 'dotenv-rails'
+gem "rails"
+gem 'devise'
+gem 'dotenv-rails'
+gem 'puma'
